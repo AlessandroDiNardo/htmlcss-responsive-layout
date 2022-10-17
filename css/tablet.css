@@ -1,0 +1,62 @@
+/* TABLET */
+@media screen and (max-width: 768px) {
+    .container{
+        width: 768px;
+    }
+
+    .margin{
+        margin: 0 20px;
+    }
+
+    /* header */
+    .menu-tablet{
+        display: block;
+    }
+
+    .menu-desktop{
+        display: none;
+    }
+
+    /* header */
+
+
+    /* main */
+    /*  info-section  */
+    .card-info{
+        /* DEBUG */
+        min-height: 500px;
+    }
+
+
+    /*  strats-planning section  */
+    .strats-section .container{
+        display: block;
+        width: 100%;
+        padding: 50px 0;
+    }
+
+    .big-col-strats{
+        width: 95%;
+    }
+
+    .small-col-strats{
+        width: 95%;
+        margin-top: 50px;
+    }
+
+
+    /* testimonials section */
+    .card-testimonials{
+        margin: 30px 0;
+    }
+
+
+    /* benefits section */
+    .card-benefits{
+        border-radius: 30px;
+        width: calc(100% / 2 - 20px);
+    }
+    /* main */
+}
+
+

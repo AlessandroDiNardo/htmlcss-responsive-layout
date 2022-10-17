@@ -1,0 +1,52 @@
+/* MOBILE */
+@media screen and (max-width: 480px) {
+    
+    .container{
+        width: 480px;
+    }
+
+/* main */
+    /* info-section */
+    .cards-info-block{
+        display: block;
+        padding: 50px 0;
+    }
+
+    .card-info{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+
+    /* strats-planning section */
+    .big-col-strats{
+        width: 90%;
+    }
+
+    .small-col-strats{
+        width: 90%;
+    }
+
+
+    /* benefits section */
+    .card-benefits{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+
+    /* about-us section */
+    .company-col{
+        display: block;
+    }
+
+    .big-col{
+        width: 100%;
+        margin: 0;
+    }
+
+    .small-col{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
