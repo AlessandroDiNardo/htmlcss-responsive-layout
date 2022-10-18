@@ -7,22 +7,27 @@
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/tablet.css">
     <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://kit.fontawesome.com/897e5eb927.js" crossorigin="anonymous"></script>
     <title>Responsive Layout</title>
 </head>
 <body>
     <!-- header -->
     <header>
         <div class="container">
-            <div class="logo col margin">LOGO</div>
+            <div class="logo margin">
+                <img src="img/logo.png" alt="logo">
+            </div>
         <!-- nav -->
         <!-- menu desktop -->
-            <nav class="menu-desktop col">
+            <nav class="menu-desktop ">
                 <ul>
-                    <li><a href="">LINK</a></li>
-                    <li><a href="">LINK</a></li>
-                    <li><a href="">LINK</a></li>
-                    <li><a href="">LINK</a></li>
-                    <li><a href="">LINK</a></li>
+                    <li><a href="">Planning</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">About us</a></li>
+                    <li>
+                        <a href="" class="btn btn-started">Get Started</a>
+                    </li>
                 </ul>
             </nav>
             <!-- menu tablet/mobile -->
@@ -38,11 +43,64 @@
         <section>
             <div class="container">
                 <div class="cards-info-block margin">
-                    <div class="card-info card-big col"></div>
-                    <div class="card-info col"></div>
-                    <div class="card-info col"></div>
-                    <div class="card-info col"></div>
-                    <div class="card-info col"></div>
+                    <div class="card-info card-big">
+                        <div class="text-info-section-big">
+                            <h3>Get a demo application</h3>
+                            <br>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa delectus reprehenderit quaerat rem quasi, ab sint molestias doloribus, consectetur, quos alias et qui voluptatem.
+                            </p>
+                            <a href="btn" class="btn btn-app">
+                                <span><i class="fa-brands fa-apple"></i></span>
+                                <span>App Store</span>
+                            </a>
+                            <img src="img/phone.png" alt="phone">
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="text-info-section">
+                            <div class="font-info">
+                                <i class="fa-solid fa-file-code"></i>
+                            </div>
+                            <h3>Clean Code</h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam exercitationem eius, accusantium reprehenderit explicabo consequuntur.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="text-info-section">
+                            <div class="font-info">
+                                <i class="fa-solid fa-compass-drafting"></i>
+                            </div>
+                            <h3>Web Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam exercitationem eius, accusantium reprehenderit explicabo consequuntur.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="text-info-section">
+                            <div class="font-info">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <h3>Development</h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam exercitationem eius, accusantium reprehenderit explicabo consequuntur.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card-info">
+                        <div class="text-info-section">
+                            <div class="font-info">
+                                <i class="fa-solid fa-bullhorn"></i>
+                            </div>
+                            <h3>Branding</h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam exercitationem eius, accusantium reprehenderit explicabo consequuntur.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -50,8 +108,27 @@
         <!-- strats-planning section -->
         <section class="bg-violet strats-section">
             <div class="container">
-                <div class="big-col-strats col margin">big-col</div>
-                <div class="small-col-strats col margin">small-col</div>
+                <div class="big-col-strats margin">
+                    <div class="text-planning-big">
+                        <img src="img/planning1.png" alt="">
+                        <h3>Strategic Planning</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo itaque debitis atque neque, molestias aperiam cupiditate, blanditiis, incidunt optio soluta praesentium dignissimos? Aspernatur tempore quisquam, consequuntur aliquam est dignissimos quos.
+                        </p>
+                    </div>
+                </div>
+                <div class="small-col-strats margin">
+                    <div class="text-planning-small">
+                        <img src="img/planning2.png" alt="">
+                        <h3>App Development</h3>
+                        <p>
+                            Develop an on-demand app for your delivery business to reach your targeted customers without any interruption.
+                        </p>
+                        <a href="" id="arrow-down">
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -59,13 +136,39 @@
         <section>
             <div class="container">
                 <div class="text-testimonials">
-                    <div>TEXT</div>
-                    <h2>TEXT</h2>
-                    <p>TEXT</p>
+                    <div>TESTIMONIALS</div>
+                    <h2 id="text-testimonials-h2">We are committed expert partners</h2>
+                    <p id="text-testimonials-p">
+                        We place huge value on strong relationships and have seen the benefit they bring to our business. Cusotmer feedback is vital in helping us to get it right.
+                    </p>
                     <div class="cards-testimonia-block margin">
-                        <div class="card-testimonials col margin"></div>
-                        <div class="card-testimonials col margin"></div>
-                        <div class="card-testimonials col margin"></div>
+                        <div class="card-testimonials margin">
+                            <img src="img/testimonial1.jpg" alt="testimonials-1">
+                            <p>
+                               <span><i class="fa-solid fa-quote-left"></i></span>
+                               Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin. 
+                               <span><i class="fa-solid fa-quote-right"></i></span>
+                            </p>
+                            <h3>NAT REYNOLDS</h3>
+                        </div>
+                        <div class="card-testimonials col margin">
+                            <img src="img/testimonial2.jpg" alt="testimonials-1">
+                            <p>
+                               <span><i class="fa-solid fa-quote-left"></i></span>
+                               Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin. 
+                               <span><i class="fa-solid fa-quote-right"></i></span>
+                            </p>
+                            <h3>CELIE ALMEDA</h3>
+                        </div>
+                        <div class="card-testimonials col margin">
+                            <img src="img/testimonial3.jpg" alt="testimonials-1">
+                            <p>
+                               <span><i class="fa-solid fa-quote-left"></i></span>
+                               Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin. 
+                               <span><i class="fa-solid fa-quote-right"></i></span>
+                            </p>
+                            <h3>BOB ROBERTS</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -74,14 +177,68 @@
         <!-- benefits section -->
         <section class="bg-violet benifits-section">
             <div class="container">
-                <h2 id="title-benefits">TEXT</h2>
+                <h2 id="title-benefits">Benefits of working with us</h2>
                 <div class="cards-benefits-block margin">
-                    <div class="card-benefits col">1</div>
-                    <div class="card-benefits col">2</div>
-                    <div class="card-benefits col">3</div>
-                    <div class="card-benefits col">4</div>
-                    <div class="card-benefits col">5</div>
-                    <div class="card-benefits col">6</div>
+                    <div class="card-benefits col">
+                        <div id="number-card">01</div>
+                        <h3>High Quality</h3>
+                        <p>
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.
+                        </p>
+                        <a href="" class="btn btn-more">
+                            more
+                        </a>
+                    </div>
+                    <div class="card-benefits col">
+                        <div id="number-card">02</div>
+                        <h3>Creative Team</h3>
+                        <p>
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.
+                        </p>
+                        <a href="" class="btn btn-more">
+                            more
+                        </a>
+                    </div>
+                    <div class="card-benefits col">
+                        <div id="number-card">03</div>
+                        <h3>Amazing Results</h3>
+                        <p>
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.
+                        </p>
+                        <a href="" class="btn btn-more">
+                            more
+                        </a>
+                    </div>
+                    <div class="card-benefits col">
+                        <div id="number-card">04</div>
+                        <h3>Best Pricing</h3>
+                        <p>
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.
+                        </p>
+                        <a href="" class="btn btn-more">
+                            more
+                        </a>
+                    </div>
+                    <div class="card-benefits col">
+                        <div id="number-card">05</div>
+                        <h3>Innovations</h3>
+                        <p>
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.
+                        </p>
+                        <a href="" class="btn btn-more">
+                            more
+                        </a>
+                    </div>
+                    <div class="card-benefits col">
+                        <div id="number-card">06</div>
+                        <h3>24/7 Support</h3>
+                        <p>
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.
+                        </p>
+                        <a href="" class="btn btn-more">
+                            more
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -89,9 +246,29 @@
         <!-- about-us section -->
         <section>
             <div class="container">
-                <div class="company-col margin">
-                    <div class="big-col col"></div>
-                    <div class="small-col col"></div>
+                <div class="about-us margin">
+                    <div class="big-col col">
+                        <h2>About Us</h2>
+                        <p>
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.Vitae suscipit mauris a diam maecenas sed enim ut. 
+                        </p>
+                        <p>
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum. Praesent semper feugiat nibh pulbinar proin.
+                            Vitae suscipit mauris a diam maecenas sed enim ut. Mauris augue neque gravida in fermentum.
+                        </p>
+                    </div>
+                    <div class="small-col col">
+                        <img src="img/about.jpg" alt="about">
+                        <span id="small-text"><i class="fa-solid fa-quote-left"></i></span>
+                        <h3>
+                            I help companies tincidunt tortor aliquam nulla facilisi cras fermentum odio
+                        </h3>
+                        <a href="" class="btn btn-about">
+                            <span><i class="fa-brands fa-linkedin"></i></span>
+                            <span>Find me on linkedin</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -100,12 +277,19 @@
         <section class="bg-violet">
             <div class="coontainer">
                 <div class="text-get-started">
-                    <div>TEXT</div>
-                    <h2>TEXT</h2>
-                    <h1>TEXT</h1>
-                    <div>TEXT</div>
-                    <a href="">TEXT</a>
-                    <div>TEXT</div>
+                    <div>GET STARTED</div>
+                    <h2>Simple, Transparent Pricing </h2>
+                    <h1>It<span>&#39;</span>s Free</h1>
+                    <div id="info-section-last">
+                        We<span>&#39;</span>re still in beta we will be for awhile. As we add more funcionality, we<span>&#39;</span>ll look into other plans with more controls.
+                    </div>
+                    <a href="" class="btn btn-started-two">
+                       <span>Get Started</span>
+                    </a>
+                    <div>
+                        Copyright 2021 Boolean <span>&bull;</span> class XX 
+                        <span>&bull;</span> <span id="underline">Privacy policy</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -113,8 +297,13 @@
 
     <!-- footer -->
     <footer>
-        <div>TEXT</div>
-        <div>TEXT</div>
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident sit vel architecto eligendi doloremque delectus ea quidem non eaque.
+        </div>
+        <div>
+            <span>Lorem ipsum</span> dolor sit amet consectetur adipisicing elit
+            <span>Boolean careers</span>
+        </div>
     </footer>
 </body>
 </html>
