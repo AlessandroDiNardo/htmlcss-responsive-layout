@@ -126,6 +126,7 @@ main{
     color: #5a6e7f;
     line-height: 30px;
     margin-right: 250px;
+    margin-top: 20px;
 }
 
 .btn-app{
@@ -263,8 +264,6 @@ main{
     margin: 30px 0;
     border-radius: 50px;
     position: relative;
-    /* DEBUG */
-    height: 250px;
 }
 
 .card-testimonials p{
@@ -415,17 +414,18 @@ main{
 }
 
 #info-section-last{
-    margin: 0 600px;
+    margin: 0 200px;
     line-height: normal;
 }
 
-.btn-started-two{
+.btn-started-two {
     background-color: white;
     color: #9792e4;
     width: 250px;
-    height: 60px;
     margin: 50px 0;
-    font-size: 30px;
+    font-size: 20px;
+    height: 60px;
+    padding: 15px;
 }
 
 #underline{

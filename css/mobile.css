@@ -17,6 +17,21 @@
         margin: 10px 0;
     }
 
+    .text-info-section-big {
+        text-align: center;
+    }
+
+    .card-info img {
+        width: 50%;
+        height: 42%;
+    }
+
+    .btn-app {
+        padding-left: 0;
+    }
+
+
+
 
     /* strats-planning section */
     .big-col-strats{
@@ -27,6 +42,34 @@
         width: 90%;
     }
 
+    .text-planning-big h3 {
+        font-size: 50px;
+    }
+
+
+    /* testimonial section */
+    .card-testimonials {
+        padding: 30px;
+    }
+
+    .card-testimonials img{
+        position: static;
+        width: 60%;
+    }
+
+    .card-testimonials p{
+        padding-left: 0;
+        margin-left: 0;
+        padding-top: 50px;
+    }
+
+    .card-testimonials h3{
+        padding: 0;
+        margin-top: 30px;
+    }
+
+
+
 
     /* benefits section */
     .card-benefits{
@@ -36,7 +79,7 @@
 
 
     /* about-us section */
-    .company-col{
+    .about-us{
         display: block;
     }
 
@@ -49,4 +92,38 @@
         width: 100%;
         margin-top: 30px;
     }
+
+    .small-col img{
+        width: 50%;
+    }
+
+    .small-col h3{
+        margin-left: 0;
+        padding-right: 90px;
+    }
+
+    .btn-about{
+        margin-left: 0;
+    }
+
+    #small-text {
+        right: 210px;
+    }
+
+
+
+    /* get-started section */
+    .text-get-started {
+        padding: 50px;
+    }
+
+    .text-get-started h2 {
+        font-size: 40px;
+    }
+
+    .text-get-started h1 {
+        font-size: 85px;
+    }
+
+
 }
